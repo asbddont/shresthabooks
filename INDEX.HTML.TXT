@@ -1,0 +1,43 @@
+!DOCTYPE html
+html lang=en
+head
+  meta charset=UTF-8
+  titleShrestha Books and Stationerytitle
+  link rel=stylesheet href=styles.css
+head
+body
+
+  header
+    h1Shrestha Books and Stationeryh1
+    pLocated at Triveni Chowk, Diktel, Khotangp
+  header
+
+  main
+    div class=card
+      !-- Image Placeholder --
+      img 
+        src=httpsvia.placeholder.com800x400text=Store+Image+Here 
+        alt=Storefront of Shrestha Books and Stationery 
+        class=store-image
+      
+
+      h2Welcome!h2
+      pAt span class=highlightShrestha Books and Stationeryspan, we are committed to providing high-quality educational supplies and stationery items for all your academic and office needs.p
+      pWe take pride in offeringp
+      ul
+        listrongTop-quality books and notebooksstrongli
+        listrongWide range of stationery suppliesstrongli
+        listrongFriendly and fair pricing for everyonestrongli
+        listrongWarm and welcoming servicestrongli
+      ul
+      pOwned and operated by span class=highlightProf. Rudra Kumar Shresthaspan, a respected name in the community.p
+      button onclick=showMessage()Click to Learn Morebutton
+      p id=extraMessage style=displaynone; margin-top 10px;p
+    div
+  main
+
+  script src=script.jsscript
+body
+html
+link rel=stylesheet href=cssstyles.css
+script src=jsscript.jsscript
